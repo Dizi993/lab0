@@ -1,5 +1,9 @@
 #include <stdio.h>
+#include  <locale.h>
+#include <stdlib.h> 
 void main()
 {
-puts("Hello World!");
+	setlocale(LC_CTYPE, "RUS");
+	puts("Привет Мир!");
+	system("pause");
 }
