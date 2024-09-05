@@ -9,5 +9,5 @@ void main()
 	getchar(); // ожидание нажатия Enter
 
 	puts("Продолжение программы");
-	
+	return 0;
 }
